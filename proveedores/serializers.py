@@ -5,4 +5,4 @@ class ProveedorSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Proveedor
-        fields = ('nombre', 'ruc', 'direccion')
+        fields = ('id', 'nombre', 'ruc', 'direccion')
